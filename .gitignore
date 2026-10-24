@@ -70,3 +70,17 @@ out/
 /additional_Images
 /datasets/baseline
 /datasets/transfer_learning
+
+# Generated datasets (відтворюються скриптами, не зберігаються в git)
+#   clever_split           -> data_preparation/build_clever_split.py
+#   clever_split_*_r512    -> CNN/exp3_gpu_seeds.py
+#   cv5                    -> CNN/exp4_group_cv.py
+/datasets/clever_split/
+/datasets/clever_split_r512/
+/datasets/clever_split_orig_r512/
+/datasets/cv5/
+*.cache
+
+# Ваги проміжних прогонів експериментів (фінальна модель -34 зберігається)
+/CNN/results_yolo/**/weights/
+!/CNN/results_yolo/yolo_11_selected_9_classes-150-34/weights/

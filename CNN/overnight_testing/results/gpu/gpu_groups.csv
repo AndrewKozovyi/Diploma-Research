@@ -1,0 +1,7 @@
+group,n,test_top1_mean,test_top1_std,test_top5_mean,val_top1_mean,params
+S_n_150,5,0.606,0.024,0.886,0.672,"{""weights"": ""yolo11n-cls.pt"", ""data"": ""clever_split_r512""}"
+O_n_orig,3,0.590,0.010,0.870,0.677,"{""weights"": ""yolo11n-cls.pt"", ""data"": ""clever_split_orig_r512""}"
+M_s_150,3,0.600,0.026,0.910,0.670,"{""weights"": ""yolo11s-cls.pt"", ""data"": ""clever_split_r512""}"
+M_m_150,3,0.617,0.021,0.917,0.673,"{""weights"": ""yolo11m-cls.pt"", ""data"": ""clever_split_r512""}"
+F_n_freeze0,3,0.607,0.070,0.917,0.687,"{""weights"": ""yolo11n-cls.pt"", ""data"": ""clever_split_r512"", ""freeze"": 0}"
+P_n_drop05,3,0.587,0.032,0.900,0.630,"{""weights"": ""yolo11n-cls.pt"", ""data"": ""clever_split_r512"", ""dropout"": 0.5}"

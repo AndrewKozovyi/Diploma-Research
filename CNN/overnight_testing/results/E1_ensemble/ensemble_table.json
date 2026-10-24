@@ -1,0 +1,68 @@
+[
+  {
+    "combo": "D2+Y2",
+    "val_top1": 0.7,
+    "test_top1": 0.63,
+    "test_top5": 0.9
+  },
+  {
+    "combo": "D1b+Y2",
+    "val_top1": 0.69,
+    "test_top1": 0.62,
+    "test_top5": 0.92
+  },
+  {
+    "combo": "D1b+D2+Y2",
+    "val_top1": 0.69,
+    "test_top1": 0.67,
+    "test_top5": 0.94
+  },
+  {
+    "combo": "B0+D1b",
+    "val_top1": 0.68,
+    "test_top1": 0.62,
+    "test_top5": 0.94
+  },
+  {
+    "combo": "B0+D2",
+    "val_top1": 0.68,
+    "test_top1": 0.63,
+    "test_top5": 0.92
+  },
+  {
+    "combo": "B0+D1b+Y2",
+    "val_top1": 0.68,
+    "test_top1": 0.63,
+    "test_top5": 0.94
+  },
+  {
+    "combo": "B0+D1b+D2+Y2",
+    "val_top1": 0.68,
+    "test_top1": 0.63,
+    "test_top5": 0.94
+  },
+  {
+    "combo": "B0+Y2",
+    "val_top1": 0.67,
+    "test_top1": 0.64,
+    "test_top5": 0.91
+  },
+  {
+    "combo": "B0+D2+Y2",
+    "val_top1": 0.67,
+    "test_top1": 0.63,
+    "test_top5": 0.9
+  },
+  {
+    "combo": "B0+D1b+D2",
+    "val_top1": 0.64,
+    "test_top1": 0.64,
+    "test_top5": 0.93
+  },
+  {
+    "combo": "D1b+D2",
+    "val_top1": 0.53,
+    "test_top1": 0.63,
+    "test_top5": 0.91
+  }
+]

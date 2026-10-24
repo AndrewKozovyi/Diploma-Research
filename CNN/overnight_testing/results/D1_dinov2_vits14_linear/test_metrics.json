@@ -1,0 +1,9 @@
+{
+  "run": "D1_dinov2_vits14_linear",
+  "val_top1": 0.550000011920929,
+  "test_top1": 0.6299999952316284,
+  "test_top5": 0.9200000166893005,
+  "weight_decay": 1e-05,
+  "arch": "dinov2_vits14",
+  "imgsz": 224
+}

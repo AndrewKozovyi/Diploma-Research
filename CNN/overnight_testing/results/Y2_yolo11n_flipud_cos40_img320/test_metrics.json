@@ -1,0 +1,25 @@
+{
+  "run": "Y2_yolo11n_flipud_cos40_img320",
+  "val_top1": 0.7099999785423279,
+  "test_top1": 0.6399999856948853,
+  "test_top5": 0.8799999952316284,
+  "args": {
+    "epochs": 40,
+    "imgsz": 320,
+    "batch": 16,
+    "freeze": 5,
+    "patience": 20,
+    "optimizer": "auto",
+    "lr0": 1e-05,
+    "dropout": 0.8,
+    "weight_decay": 0.0005,
+    "degrees": 15,
+    "fliplr": 0.5,
+    "scale": 0.5,
+    "translate": 0.1,
+    "deterministic": true,
+    "seed": 0,
+    "flipud": 0.5,
+    "cos_lr": true
+  }
+}

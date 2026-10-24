@@ -1,0 +1,25 @@
+{
+  "run": "M_m_150_seed2",
+  "val_top1": 0.6800000071525574,
+  "test_top1": 0.6100000143051147,
+  "test_top5": 0.8999999761581421,
+  "weights": "yolo11m-cls.pt",
+  "data": "D:\\projects\\Diploma\\datasets\\clever_split_r512",
+  "args": {
+    "epochs": 30,
+    "imgsz": 224,
+    "batch": 16,
+    "freeze": 5,
+    "patience": 15,
+    "optimizer": "auto",
+    "lr0": 1e-05,
+    "dropout": 0.8,
+    "weight_decay": 0.0005,
+    "fliplr": 0.5,
+    "scale": 0.5,
+    "deterministic": true,
+    "device": 0,
+    "workers": 4,
+    "seed": 2
+  }
+}

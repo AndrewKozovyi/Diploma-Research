@@ -1,0 +1,8 @@
+time,name,kind,val_top1,test_top1,test_top5,minutes,params,note
+2026-10-24 03:26,B0_yolo11n_params_as_-27,yolo,0.670,0.620,0.940,31.0,"{}",baseline на clever_split
+2026-10-24 03:31,D1_dinov2_vits14_linear,dinov2,0.550,0.630,0.920,10.3,"{""arch"": ""dinov2_vits14"", ""imgsz"": 224, ""wd"": 1e-05}",
+2026-10-24 03:42,Y1_yolo11n_flipud_cos40,yolo,0.700,0.590,0.870,48.2,"{""flipud"": 0.5, ""cos_lr"": true, ""epochs"": 40, ""patience"": 20}",
+2026-10-24 04:30,Y2_yolo11n_flipud_cos40_img320,yolo,0.710,0.640,0.880,66.6,"{""flipud"": 0.5, ""cos_lr"": true, ""epochs"": 40, ""patience"": 20, ""imgsz"": 320}",
+2026-10-24 08:05,D1b_dinov2_vits14_linear,dinov2,0.540,0.620,0.920,9.9,"{""arch"": ""dinov2_vits14"", ""imgsz"": 224, ""wd_grid"": [1e-06, 1e-05, 0.0001, 0.001, 0.01, 0.03], ""wd"": 0.0001}",
+2026-10-24 08:15,D2_dinov2_vitb14_linear,dinov2,0.530,0.610,0.920,30.1,"{""arch"": ""dinov2_vitb14"", ""imgsz"": 224, ""wd_grid"": [1e-06, 1e-05, 0.0001, 0.001, 0.01, 0.03], ""wd"": 0.0001}",
+2026-10-24 08:45,E1_ensemble,ensemble,0.700,0.630,0.900,0.4,"{""chosen_by_val"": ""D2+Y2""}",

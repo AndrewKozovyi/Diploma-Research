@@ -1,0 +1,10 @@
+true\pred,Allosaurus,Camarasaurus,Camptosaurus,Deinonychus,Edmontosaurus,Monoclonius,Stegosaurus,Torosaurus,Triceratops
+Allosaurus,16,6,19,1,4,5,22,2,2
+Camarasaurus,10,4,4,5,1,1,9,1,3
+Camptosaurus,14,4,13,0,5,3,11,0,2
+Deinonychus,4,0,0,32,0,3,1,3,0
+Edmontosaurus,6,2,1,1,12,3,9,6,3
+Monoclonius,1,0,0,0,0,115,2,1,0
+Stegosaurus,18,9,15,0,3,6,84,5,4
+Torosaurus,2,4,2,0,3,0,1,71,3
+Triceratops,1,1,2,2,5,0,8,5,22

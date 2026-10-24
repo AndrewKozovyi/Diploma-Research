@@ -1,0 +1,25 @@
+{
+  "run": "Y1_yolo11n_flipud_cos40",
+  "val_top1": 0.699999988079071,
+  "test_top1": 0.5899999737739563,
+  "test_top5": 0.8700000047683716,
+  "args": {
+    "epochs": 40,
+    "imgsz": 224,
+    "batch": 16,
+    "freeze": 5,
+    "patience": 20,
+    "optimizer": "auto",
+    "lr0": 1e-05,
+    "dropout": 0.8,
+    "weight_decay": 0.0005,
+    "degrees": 15,
+    "fliplr": 0.5,
+    "scale": 0.5,
+    "translate": 0.1,
+    "deterministic": true,
+    "seed": 0,
+    "flipud": 0.5,
+    "cos_lr": true
+  }
+}

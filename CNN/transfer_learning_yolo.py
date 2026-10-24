@@ -7,7 +7,7 @@ from ultralytics import YOLO
 # ==============================================================================
 # НАЛАШТУВАННЯ (Точна копія конфігурації з логу 88.2%)
 # ==============================================================================
-DATA_DIR = r"D:\projects\Diploma\transfer_learning_datasets_filtered_by_5"
+DATA_DIR = r"D:\projects\Diploma\datasets\transfer_learning\transfer_learning_datasets_filtered_by_5"
 # EXPERIMENT_NAME = "yolo_8_baseline-250"
 # EXPERIMENT_NAME = "yolo_11_baseline-250"
 # EXPERIMENT_NAME = "yolo_8_9_classes_baseline-250"
@@ -19,13 +19,13 @@ DATA_DIR = r"D:\projects\Diploma\transfer_learning_datasets_filtered_by_5"
 EXPERIMENT_NAME = "yolo_11_selected_9_classes-150"
 PROJECT_DIR = r"D:\projects\Diploma\CNN\results_yolo"
 
-EPOCHS = 45
+EPOCHS = 30
 BATCH_SIZE = 16
 IMG_SIZE = 224
 # FREEZE_LAYERS = 9
 FREEZE_LAYERS = 5
 # LR_INIT = 0.001
-LR_INIT = 1e-5
+LR_INIT = 1e-5   # УВАГА: при OPTIMIZER='auto' ігнорується, реальний LR ~7.7e-4 (див. lr/pg0 у results.csv)
 yolo_name = 'yolo11'
 
 # ------------------------------------------------------------------------------
@@ -72,10 +72,18 @@ def plot_custom_results(results_dir):
     plt.legend()
     plt.title(f"Loss over Epochs ({yolo_name})")
 
-    # Підпис точнісінько як на твоєму скріншоті (3 рядки)
+    # Реальний LR береться з логу (lr/pg0). При optimizer='auto' Ultralytics ігнорує lr0
+    # і сам обирає AdamW з lr = 0.002*5/(4+nc) (~7.7e-4 для 9 класів), тому LR_INIT тут не показуємо.
+    if OPTIMIZER == 'auto':
+        lr_text = (f"Optimizer: auto -> AdamW | LR (з логу): peak {df['lr/pg0'].max():.2e}, "
+                   f"final {df['lr/pg0'].iloc[-1]:.2e}")
+    else:
+        lr_text = f"Optimizer: {OPTIMIZER} | Init LR: {LR_INIT} (peak з логу {df['lr/pg0'].max():.2e})"
+
+    # Підпис (3 рядки)
     params_text = (
         f"MODEL: {yolo_name}n-cls | EXPERIMENT: {EXPERIMENT_NAME}\n"
-        f"Img Size: {IMG_SIZE} | Batch: {BATCH_SIZE} | Epochs: {EPOCHS} | Init LR: {LR_INIT} | Freeze: {FREEZE_LAYERS}\n"
+        f"Img Size: {IMG_SIZE} | Batch: {BATCH_SIZE} | Epochs: {EPOCHS} | {lr_text} | Freeze: {FREEZE_LAYERS}\n"
         f"Dropout: {DROPOUT} | Weight Decay: {WEIGHT_DECAY} | Degrees: {DEGREES}° | Flip LR: {FLIP_LR}"
     )
     plt.figtext(0.5, 0.01, params_text, wrap=True, horizontalalignment='center',
