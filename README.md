@@ -4,7 +4,9 @@ The images used to train the model in this repository are **not owned by the aut
 They are photos of museum specimens published by their holding institutions:
 
 - **Yale Peabody Museum of Natural History**, Vertebrate Paleontology collection, obtained through [LUX: Yale Collections Discovery](https://lux.collections.yale.edu).
-- **GBIF (Global Biodiversity Information Facility)**: images attached to fossil specimen occurrence records published by museums and institutions worldwide, obtained through the [GBIF Occurrence API](https://www.gbif.org/developer/occurrence).
+- **GBIF (Global Biodiversity Information Facility)**: images attached to fossil specimen occurrence records published by museums and institutions worldwide, obtained through the [GBIF Occurrence API](https://www.gbif.org/developer/occurrence). These include:
+  - **Smithsonian National Museum of Natural History** (NMNH, institution code `USNM`), Paleobiology collection;
+  - **Virginia Museum of Natural History** (`VMNH`), whose images are hosted on Flickr and linked from the GBIF record.
 
 All rights to the images belong to their respective institutions and photographers.
 
@@ -18,7 +20,8 @@ The file name of each image identifies its source record:
 | `parsed_<key>_...` or `<key>_...` | `https://www.gbif.org/occurrence/<key>` |
 
 The record page lists the publishing institution, the catalogue number and the license or rights statement for its media.
-GBIF media are published under licenses chosen by each publisher (CC0, CC BY 4.0 or CC BY-NC 4.0).
+GBIF media are published under licenses chosen by each publisher (CC0, CC BY 4.0, CC BY-NC 4.0 or CC BY-NC-SA 4.0).
+Smithsonian images are CC0 or marked "Usage Conditions Apply" (see the [Smithsonian terms of use](https://www.si.edu/termsofuse)); VMNH images are CC BY-NC-SA 4.0.
 Yale gives rights information for each object on its LUX record.
 
 When using this data, please cite the original institutions and **GBIF.org**.
