@@ -1,0 +1,45 @@
+﻿action,class,file,path,reason
+видалити,Tyrannosaurus,1316937774_0.png,D:\projects\Diploma\datasets\merged_dataset_filtered\Tyrannosaurus\1316937774_0.png,не схоже на кістку T. rex (квітчастий зуб/інший організм)
+видалити,Tyrannosaurus,1316937774_1.png,D:\projects\Diploma\datasets\merged_dataset_filtered\Tyrannosaurus\1316937774_1.png,"те саме, що 841"
+видалити,Tyrannosaurus,1316937774_2.png,D:\projects\Diploma\datasets\merged_dataset_filtered\Tyrannosaurus\1316937774_2.png,"те саме, що 841"
+вирішити,Camarasaurus,1316704416_0.png,D:\projects\Diploma\datasets\merged_dataset_filtered\Camarasaurus\1316704416_0.png,"цілий череп/скелет-експонат або муляж, а не окрема кістка"
+вирішити,Camarasaurus,parsed_3322098640_6_bone_0.png,D:\projects\Diploma\datasets\merged_dataset_filtered\Camarasaurus\parsed_3322098640_6_bone_0.png,"цілий череп/скелет-експонат або муляж, а не окрема кістка"
+вирішити,Camptosaurus,parsed_1316565027_0_bone_0.png,D:\projects\Diploma\datasets\merged_dataset_filtered\Camptosaurus\parsed_1316565027_0_bone_0.png,"цілий череп/скелет-експонат або муляж, а не окрема кістка"
+вирішити,Camptosaurus,parsed_1316565027_1_bone_0.png,D:\projects\Diploma\datasets\merged_dataset_filtered\Camptosaurus\parsed_1316565027_1_bone_0.png,"цілий череп/скелет-експонат або муляж, а не окрема кістка"
+вирішити,Edmontosaurus,parsed_3322375639_0_bone_0.png,D:\projects\Diploma\datasets\merged_dataset_filtered\Edmontosaurus\parsed_3322375639_0_bone_0.png,"цілий череп/скелет-експонат або муляж, а не окрема кістка"
+вирішити,Edmontosaurus,parsed_1317032238_1_bone_0.png,D:\projects\Diploma\datasets\merged_dataset_filtered\Edmontosaurus\parsed_1317032238_1_bone_0.png,"цілий череп/скелет-експонат або муляж, а не окрема кістка"
+вирішити,Torosaurus,yale_428b0323-d6c9-4f29-8b8d-23c5bfc99134_bone_0.png,D:\projects\Diploma\datasets\merged_dataset_filtered\Torosaurus\yale_428b0323-d6c9-4f29-8b8d-23c5bfc99134_bone_0.png,"цілий череп/скелет-експонат або муляж, а не окрема кістка"
+вирішити,Torosaurus,yale_3e64ca68-b94f-4304-beca-175455c171c5_bone_0.png,D:\projects\Diploma\datasets\merged_dataset_filtered\Torosaurus\yale_3e64ca68-b94f-4304-beca-175455c171c5_bone_0.png,"цілий череп/скелет-експонат або муляж, а не окрема кістка"
+вирішити,Triceratops,yale_747603a5-2070-4e09-beb4-95c50a44f302_bone_0.png,D:\projects\Diploma\datasets\merged_dataset_filtered\Triceratops\yale_747603a5-2070-4e09-beb4-95c50a44f302_bone_0.png,"цілий череп/скелет-експонат або муляж, а не окрема кістка"
+вирішити,Tyrannosaurus,1316852977_0.png,D:\projects\Diploma\datasets\merged_dataset_filtered\Tyrannosaurus\1316852977_0.png,"цілий череп/скелет-експонат або муляж, а не окрема кістка"
+вирішити,Tyrannosaurus,3322150848_12.png,D:\projects\Diploma\datasets\merged_dataset_filtered\Tyrannosaurus\3322150848_12.png,"цілий череп/скелет-експонат або муляж, а не окрема кістка"
+вирішити,Tyrannosaurus,parsed_1316852977_1_bone_0.png,D:\projects\Diploma\datasets\merged_dataset_filtered\Tyrannosaurus\parsed_1316852977_1_bone_0.png,"цілий череп/скелет-експонат або муляж, а не окрема кістка"
+обрізати,Deinonychus,yale_27a6f1c2-649c-4acc-ae4e-80d09fc7e60b_bone_1.png,D:\projects\Diploma\datasets\merged_dataset_filtered\Deinonychus\yale_27a6f1c2-649c-4acc-ae4e-80d09fc7e60b_bone_1.png,картка з назвою виду Deinonychus у кадрі (пряма підказка класу)
+обрізати,Stegosaurus,parsed_1316828761_2_bone_0.png,D:\projects\Diploma\datasets\merged_dataset_filtered\Stegosaurus\parsed_1316828761_2_bone_0.png,лінійка-масштаб під кісткою
+обрізати,Deinonychus,yale_0573119d-415e-491e-a7c3-2d1bb7cbb862_bone_1.png,D:\projects\Diploma\datasets\merged_dataset_filtered\Deinonychus\yale_0573119d-415e-491e-a7c3-2d1bb7cbb862_bone_1.png,у кадрі друга кістка (кіготь) зверху праворуч
+обрізати,Deinonychus,yale_0573119d-415e-491e-a7c3-2d1bb7cbb862_bone_1_1.png,D:\projects\Diploma\datasets\merged_dataset_filtered\Deinonychus\yale_0573119d-415e-491e-a7c3-2d1bb7cbb862_bone_1_1.png,дві кістки в кадрі
+обрізати,Triceratops,yale_6d92fde5-8496-49f3-a5bd-aecdccf889bf_bone_0.png,D:\projects\Diploma\datasets\merged_dataset_filtered\Triceratops\yale_6d92fde5-8496-49f3-a5bd-aecdccf889bf_bone_0.png,гіпсовий кожух і смуга з фото/етикеткою над кісткою
+обрізати,Camptosaurus,parsed_1317045442_0_bone_0.png,D:\projects\Diploma\datasets\merged_dataset_filtered\Camptosaurus\parsed_1317045442_0_bone_0.png,два окремі шматки поруч
+обрізати,Torosaurus,415714030_1.png,D:\projects\Diploma\datasets\merged_dataset_filtered\Torosaurus\415714030_1.png,сіра смуга-артефакт ліворуч від кістки
+обрізати,Edmontosaurus,parsed_1317168610_0_bone_0_1.png,D:\projects\Diploma\datasets\merged_dataset_filtered\Edmontosaurus\parsed_1317168610_0_bone_0_1.png,залишок білої вертикальної смуги праворуч
+обрізати,Edmontosaurus,parsed_1317168610_0_bone_0.png,D:\projects\Diploma\datasets\merged_dataset_filtered\Edmontosaurus\parsed_1317168610_0_bone_0.png,залишок білої вертикальної смуги ліворуч
+замалювати напис,Triceratops,parsed_1317193360_0_bone_0.png,D:\projects\Diploma\datasets\merged_dataset_filtered\Triceratops\parsed_1317193360_0_bone_0.png,написано назву виду 'Triceratops prorsus (type)'
+замалювати напис,Triceratops,1317198756_3_bone_4.png,D:\projects\Diploma\datasets\merged_dataset_filtered\Triceratops\1317198756_3_bone_4.png,"код 'SK6A' (модель дивиться на нього, той самий екземпляр у test)"
+замалювати напис,Allosaurus,parsed_1316568412_0_bone_0.png,D:\projects\Diploma\datasets\merged_dataset_filtered\Allosaurus\parsed_1316568412_0_bone_0.png,великий номер 337982
+замалювати напис,Allosaurus,parsed_1317171174_0_bone_0.png,D:\projects\Diploma\datasets\merged_dataset_filtered\Allosaurus\parsed_1317171174_0_bone_0.png,великий номер 4972
+замалювати напис,Allosaurus,yale_a2533e2d-496a-47c9-8112-6340e8308a74_bone_0.png,D:\projects\Diploma\datasets\merged_dataset_filtered\Allosaurus\yale_a2533e2d-496a-47c9-8112-6340e8308a74_bone_0.png,велика етикетка 65908
+замалювати напис,Camarasaurus,1146513629_0.png,D:\projects\Diploma\datasets\merged_dataset_filtered\Camarasaurus\1146513629_0.png,кольорові наклейки (зелена і червона)
+замалювати напис,Camarasaurus,1316855787_11_5.png,D:\projects\Diploma\datasets\merged_dataset_filtered\Camarasaurus\1316855787_11_5.png,синя етикетка 5384
+замалювати напис,Camarasaurus,1316855787_11_1.png,D:\projects\Diploma\datasets\merged_dataset_filtered\Camarasaurus\1316855787_11_1.png,синя етикетка 5384
+замалювати напис,Camptosaurus,parsed_1316634074_0_bone_0.png,D:\projects\Diploma\datasets\merged_dataset_filtered\Camptosaurus\parsed_1316634074_0_bone_0.png,номер і червоний напис
+замалювати напис,Camptosaurus,parsed_1316675960_0_bone_0.png,D:\projects\Diploma\datasets\merged_dataset_filtered\Camptosaurus\parsed_1316675960_0_bone_0.png,етикетка 5824
+замалювати напис,Camptosaurus,parsed_1316696158_3_bone_0.png,D:\projects\Diploma\datasets\merged_dataset_filtered\Camptosaurus\parsed_1316696158_3_bone_0.png,етикетка 5953
+замалювати напис,Deinonychus,yale_065c717b-c087-40a2-8be0-ddfe388e0040_bone_1.png,D:\projects\Diploma\datasets\merged_dataset_filtered\Deinonychus\yale_065c717b-c087-40a2-8be0-ddfe388e0040_bone_1.png,дві білі етикетки 5223 / 66-70
+замалювати напис,Deinonychus,yale_63dc0627-6691-449f-ac43-a6adc5c7657d_bone_0.png,D:\projects\Diploma\datasets\merged_dataset_filtered\Deinonychus\yale_63dc0627-6691-449f-ac43-a6adc5c7657d_bone_0.png,біла етикетка 83
+замалювати напис,Deinonychus,yale_b87014af-ac04-4495-aea5-e4d0a43bb936_bone_2.png,D:\projects\Diploma\datasets\merged_dataset_filtered\Deinonychus\yale_b87014af-ac04-4495-aea5-e4d0a43bb936_bone_2.png,біла етикетка 5397
+замалювати напис,Stegosaurus,parsed_1317059223_1_bone_1.png,D:\projects\Diploma\datasets\merged_dataset_filtered\Stegosaurus\parsed_1317059223_1_bone_1.png,великий номер 7927
+замалювати напис,Triceratops,1316729629_0_bone_0.png,D:\projects\Diploma\datasets\merged_dataset_filtered\Triceratops\1316729629_0_bone_0.png,червона рамка-етикетка
+замалювати напис,Triceratops,parsed_1316918462_1_bone_0.png,D:\projects\Diploma\datasets\merged_dataset_filtered\Triceratops\parsed_1316918462_1_bone_0.png,червоний напис
+замалювати напис,Triceratops,1317198756_3_bone_3.png,D:\projects\Diploma\datasets\merged_dataset_filtered\Triceratops\1317198756_3_bone_3.png,"той самий екземпляр, що й SK6A: модель дивиться на напис"
+замалювати напис,Triceratops,1317198756_4_bone_0.png,D:\projects\Diploma\datasets\merged_dataset_filtered\Triceratops\1317198756_4_bone_0.png,"той самий екземпляр, що й SK6A: модель дивиться на напис"
+замалювати напис,Triceratops,1317198756_7_bone_4.png,D:\projects\Diploma\datasets\merged_dataset_filtered\Triceratops\1317198756_7_bone_4.png,"той самий екземпляр, що й SK6A: модель дивиться на напис"

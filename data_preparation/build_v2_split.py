@@ -7,8 +7,8 @@ import importlib.util
 
 import cv2
 
-SRC_DIR = r"D:\projects\Diploma\datasets\merged_dataset_filtered"
-DEST_DIR = r"D:\projects\Diploma\datasets\transfer_learning\transfer_learning_datasets_v2_filtered_by_5"
+SRC_DIR = sys.argv[1] if len(sys.argv) > 1 else r"D:\projects\Diploma\datasets\merged_dataset_filtered"
+DEST_DIR = sys.argv[2] if len(sys.argv) > 2 else r"D:\projects\Diploma\datasets\transfer_learning\transfer_learning_datasets_v2_filtered_by_5"
 TRAIN_RATIO = 0.70
 VAL_RATIO = 0.15
 MIN_VAL_IMAGES = 5

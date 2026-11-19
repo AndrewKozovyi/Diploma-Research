@@ -1,0 +1,7 @@
+config,run,val,test,test5,min_loss,final_loss,mean_abs_dloss
+v2 (centre crop),v2exp_f7_m_img320_sa,0.797,0.817,0.986,0.716,0.923,0.082
+v2 (centre crop),v2exp_f7_m_img320_sa-2,0.812,0.789,0.965,0.788,0.817,0.057
+v2 (centre crop),v2exp_f7_m_img320_sa-3,0.789,0.817,0.986,0.826,0.962,0.059
+v2 padded to square,v2exp_sq_f7_m_img320_sa,0.758,0.711,0.958,0.797,0.958,0.071
+v2 padded to square,v2exp_sq_f7_m_img320_sa-2,0.766,0.803,0.972,0.906,1.035,0.109
+v2 padded to square,v2exp_sq_f7_m_img320_sa-3,0.766,0.768,0.972,0.911,1.045,0.128

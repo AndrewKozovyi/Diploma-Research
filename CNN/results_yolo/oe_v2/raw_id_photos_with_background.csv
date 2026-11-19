@@ -1,0 +1,7 @@
+model,n,pred_unknown,top1_10cls,msp_ge_0.5
+outlier exposure,138,0.768,0.217,0.217
+outlier exposure,138,0.457,0.406,0.522
+outlier exposure,138,0.761,0.203,0.239
+baseline,138,0.0,0.558,0.819
+baseline,138,0.0,0.645,0.913
+baseline,138,0.0,0.609,0.783

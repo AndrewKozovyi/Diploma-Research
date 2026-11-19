@@ -1,0 +1,7 @@
+model,weights,msp_thr,ID_test_top1,ID_test_predicted_unknown,ID_test_accepted,ID_acc_of_accepted,near_n,near_pred_unknown,near_rejected,far_n,far_pred_unknown,far_rejected,far_raw_n,far_raw_pred_unknown,far_raw_rejected
+outlier exposure,CNN\results_yolo\oe_v2\oe_seed0\weights\best.pt,0.577,0.761,0.106,0.852,0.876,99,0.788,0.808,39,0.795,0.795,50,0.98,0.98
+outlier exposure,CNN\results_yolo\oe_v2\oe_seed1\weights\best.pt,0.446,0.69,0.092,0.859,0.787,99,0.606,0.667,39,0.744,0.821,50,0.86,0.86
+outlier exposure,CNN\results_yolo\oe_v2\oe_seed2\weights\best.pt,0.429,0.725,0.106,0.887,0.817,99,0.677,0.697,39,0.846,0.846,50,0.96,0.96
+baseline,CNN\results_yolo\v2exp_f7_m_img320_sa\weights\best.pt,0.369,0.817,0.0,0.993,0.823,99,0.0,0.01,39,0.0,0.026,50,0.0,0.08
+baseline,CNN\results_yolo\v2exp_f7_m_img320_sa-2\weights\best.pt,0.455,0.789,0.0,0.944,0.828,99,0.0,0.162,39,0.0,0.077,50,0.0,0.14
+baseline,CNN\results_yolo\v2exp_f7_m_img320_sa-3\weights\best.pt,0.448,0.817,0.0,0.93,0.841,99,0.0,0.121,39,0.0,0.154,50,0.0,0.18

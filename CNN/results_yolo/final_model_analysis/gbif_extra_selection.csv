@@ -1,0 +1,94 @@
+﻿id,decision,class,institution,cast,path
+0,skip,Allosaurus,NHMUK,True,D:\projects\Diploma\not_prepared_images\gbif_extra\cut\Allosaurus\1055577939_0_bone_0.png
+1,skip,Allosaurus,NHMUK,True,D:\projects\Diploma\not_prepared_images\gbif_extra\cut\Allosaurus\1055577939_2_bone_0.png
+2,add,Allosaurus,AK,False,D:\projects\Diploma\not_prepared_images\gbif_extra\cut\Allosaurus\1268747285_0_bone_0.png
+3,skip,Allosaurus,AK,False,D:\projects\Diploma\not_prepared_images\gbif_extra\cut\Allosaurus\1268747285_1_bone_0.png
+4,skip,Allosaurus,AK,False,D:\projects\Diploma\not_prepared_images\gbif_extra\cut\Allosaurus\1268747285_2_bone_0.png
+5,add,Allosaurus,USNM,False,D:\projects\Diploma\not_prepared_images\gbif_extra\cut\Allosaurus\1316901739_0_bone_0.png
+6,add,Allosaurus,USNM,False,D:\projects\Diploma\not_prepared_images\gbif_extra\cut\Allosaurus\1316901739_1_bone_0.png
+7,add,Allosaurus,USNM,False,D:\projects\Diploma\not_prepared_images\gbif_extra\cut\Allosaurus\1316943951_0_bone_0.png
+8,skip,Camarasaurus,NHMUK,False,D:\projects\Diploma\not_prepared_images\gbif_extra\cut\Camarasaurus\1056600553_0_bone_0.png
+9,skip,Camarasaurus,NHMUK,False,D:\projects\Diploma\not_prepared_images\gbif_extra\cut\Camarasaurus\1056600553_1_bone_0.png
+10,skip,Camarasaurus,NHMUK,False,D:\projects\Diploma\not_prepared_images\gbif_extra\cut\Camarasaurus\1056600553_2_bone_0.png
+11,add,Camptosaurus,NHMUK,False,D:\projects\Diploma\not_prepared_images\gbif_extra\cut\Camptosaurus\1265667614_1_bone_0.png
+12,add,Camptosaurus,NHMUK,False,D:\projects\Diploma\not_prepared_images\gbif_extra\cut\Camptosaurus\1265667614_1_bone_1.png
+13,add,Camptosaurus,NHMUK,False,D:\projects\Diploma\not_prepared_images\gbif_extra\cut\Camptosaurus\1265667614_1_bone_2.png
+14,add_after_crop (2 bones),Camptosaurus,USNM,False,D:\projects\Diploma\not_prepared_images\gbif_extra\cut\Camptosaurus\1316568513_0_bone_0.png
+15,add_after_crop (2 bones),Camptosaurus,USNM,False,D:\projects\Diploma\not_prepared_images\gbif_extra\cut\Camptosaurus\1316728978_0_bone_0.png
+16,add,Camptosaurus,USNM,False,D:\projects\Diploma\not_prepared_images\gbif_extra\cut\Camptosaurus\1316728978_0_bone_1.png
+17,add,Camptosaurus,USNM,False,D:\projects\Diploma\not_prepared_images\gbif_extra\cut\Camptosaurus\1316728978_0_bone_2.png
+18,add_after_crop (2 bones),Camptosaurus,USNM,False,D:\projects\Diploma\not_prepared_images\gbif_extra\cut\Camptosaurus\1316813629_0_bone_0.png
+19,add_after_crop (2 bones),Camptosaurus,USNM,False,D:\projects\Diploma\not_prepared_images\gbif_extra\cut\Camptosaurus\1316828402_0_bone_0.png
+20,add_after_crop (2 bones),Camptosaurus,USNM,False,D:\projects\Diploma\not_prepared_images\gbif_extra\cut\Camptosaurus\1317023708_0_bone_0.png
+21,skip (you removed this record earlier),Camptosaurus,USNM,False,D:\projects\Diploma\not_prepared_images\gbif_extra\cut\Camptosaurus\1317045442_0_bone_0.png
+22,skip (you removed this record earlier),Camptosaurus,USNM,False,D:\projects\Diploma\not_prepared_images\gbif_extra\cut\Camptosaurus\1317045442_0_bone_1.png
+23,skip (you removed this record earlier),Camptosaurus,USNM,False,D:\projects\Diploma\not_prepared_images\gbif_extra\cut\Camptosaurus\1317129451_0_bone_0.png
+24,add,Camptosaurus,NHMUK,False,D:\projects\Diploma\not_prepared_images\gbif_extra\cut\Camptosaurus\4440359336_0_bone_0.png
+25,add,Deinonychus,NHMUK,False,D:\projects\Diploma\not_prepared_images\gbif_extra\cut\Deinonychus\1055463859_1_bone_0.png
+26,add,Deinonychus,NHMUK,False,D:\projects\Diploma\not_prepared_images\gbif_extra\cut\Deinonychus\1055463859_1_bone_1.png
+27,skip,Deinonychus,NHMUK,False,D:\projects\Diploma\not_prepared_images\gbif_extra\cut\Deinonychus\1055463859_1_bone_2.png
+28,add,Deinonychus,AK,False,D:\projects\Diploma\not_prepared_images\gbif_extra\cut\Deinonychus\1268747368_0_bone_0.png
+29,skip,Deinonychus,AK,False,D:\projects\Diploma\not_prepared_images\gbif_extra\cut\Deinonychus\1268747368_1_bone_0.png
+30,skip,Deinonychus,AK,False,D:\projects\Diploma\not_prepared_images\gbif_extra\cut\Deinonychus\1268747368_2_bone_0.png
+31,skip,Deinonychus,MCZ,False,D:\projects\Diploma\not_prepared_images\gbif_extra\cut\Deinonychus\2461310116_0_bone_0.png
+32,skip,Deinonychus,MCZ,False,D:\projects\Diploma\not_prepared_images\gbif_extra\cut\Deinonychus\2461310116_0_bone_1.png
+33,add,Deinonychus,MCZ,False,D:\projects\Diploma\not_prepared_images\gbif_extra\cut\Deinonychus\2461310116_0_bone_2.png
+34,add,Deinonychus,MCZ,False,D:\projects\Diploma\not_prepared_images\gbif_extra\cut\Deinonychus\2461351242_0_bone_0.png
+35,add,Deinonychus,MCZ,False,D:\projects\Diploma\not_prepared_images\gbif_extra\cut\Deinonychus\2461351242_1_bone_0.png
+36,add,Deinonychus,MCZ,False,D:\projects\Diploma\not_prepared_images\gbif_extra\cut\Deinonychus\2461351242_2_bone_0.png
+37,add,Deinonychus,MCZ,False,D:\projects\Diploma\not_prepared_images\gbif_extra\cut\Deinonychus\2461351242_3_bone_0.png
+38,skip,Edmontosaurus,NHMUK,True,D:\projects\Diploma\not_prepared_images\gbif_extra\cut\Edmontosaurus\1056798773_1_bone_0.png
+39,skip,Edmontosaurus,NHMUK,True,D:\projects\Diploma\not_prepared_images\gbif_extra\cut\Edmontosaurus\1056798773_2_bone_0.png
+40,add,Edmontosaurus,NHMUK,False,D:\projects\Diploma\not_prepared_images\gbif_extra\cut\Edmontosaurus\1057469654_1_bone_0.png
+41,add,Edmontosaurus,NHMUK,False,D:\projects\Diploma\not_prepared_images\gbif_extra\cut\Edmontosaurus\1057469654_1_bone_1.png
+42,add,Edmontosaurus,USNM,False,D:\projects\Diploma\not_prepared_images\gbif_extra\cut\Edmontosaurus\1316573765_1_bone_0.png
+43,add,Edmontosaurus,USNM,False,D:\projects\Diploma\not_prepared_images\gbif_extra\cut\Edmontosaurus\1316573765_2_bone_0.png
+44,skip,Edmontosaurus,USNM,False,D:\projects\Diploma\not_prepared_images\gbif_extra\cut\Edmontosaurus\1316792976_0_bone_0.png
+45,skip,Edmontosaurus,USNM,True,D:\projects\Diploma\not_prepared_images\gbif_extra\cut\Edmontosaurus\1316810643_0_bone_0.png
+46,skip,Edmontosaurus,USNM,False,D:\projects\Diploma\not_prepared_images\gbif_extra\cut\Edmontosaurus\1316852313_0_bone_0.png
+47,skip,Edmontosaurus,USNM,True,D:\projects\Diploma\not_prepared_images\gbif_extra\cut\Edmontosaurus\1316975028_0_bone_0.png
+48,skip,Edmontosaurus,USNM,True,D:\projects\Diploma\not_prepared_images\gbif_extra\cut\Edmontosaurus\1316987738_0_bone_0.png
+49,add,Edmontosaurus,NHMUK,False,D:\projects\Diploma\not_prepared_images\gbif_extra\cut\Edmontosaurus\1454483868_1_bone_0.png
+50,add,Edmontosaurus,NHMUK,False,D:\projects\Diploma\not_prepared_images\gbif_extra\cut\Edmontosaurus\1454483868_2_bone_0.png
+51,add,Edmontosaurus,NHMUK,False,D:\projects\Diploma\not_prepared_images\gbif_extra\cut\Edmontosaurus\1454483868_3_bone_0.png
+52,add,Edmontosaurus,CMN,False,D:\projects\Diploma\not_prepared_images\gbif_extra\cut\Edmontosaurus\1826480834_0_bone_0.png
+53,add,Edmontosaurus,CMN,False,D:\projects\Diploma\not_prepared_images\gbif_extra\cut\Edmontosaurus\1826511465_0_bone_0.png
+54,add,Monoclonius,USNM,False,D:\projects\Diploma\not_prepared_images\gbif_extra\cut\Monoclonius\1316623995_0_bone_0.png
+55,add,Monoclonius,USNM,False,D:\projects\Diploma\not_prepared_images\gbif_extra\cut\Monoclonius\1316623995_1_bone_0.png
+56,add,Monoclonius,USNM,False,D:\projects\Diploma\not_prepared_images\gbif_extra\cut\Monoclonius\1316623995_2_bone_0.png
+57,add,Monoclonius,USNM,False,D:\projects\Diploma\not_prepared_images\gbif_extra\cut\Monoclonius\1316623995_3_bone_0.png
+58,add,Monoclonius,USNM,False,D:\projects\Diploma\not_prepared_images\gbif_extra\cut\Monoclonius\1316861163_0_bone_0.png
+59,add,Monoclonius,USNM,False,D:\projects\Diploma\not_prepared_images\gbif_extra\cut\Monoclonius\1316870483_0_bone_0.png
+60,add,Monoclonius,USNM,False,D:\projects\Diploma\not_prepared_images\gbif_extra\cut\Monoclonius\1316870483_1_bone_0.png
+61,add,Monoclonius,USNM,False,D:\projects\Diploma\not_prepared_images\gbif_extra\cut\Monoclonius\1316870483_2_bone_0.png
+62,add,Monoclonius,USNM,False,D:\projects\Diploma\not_prepared_images\gbif_extra\cut\Monoclonius\1316870483_2_bone_1.png
+63,add,Monoclonius,USNM,False,D:\projects\Diploma\not_prepared_images\gbif_extra\cut\Monoclonius\1316870483_3_bone_0.png
+64,add,Monoclonius,USNM,False,D:\projects\Diploma\not_prepared_images\gbif_extra\cut\Monoclonius\1316870483_4_bone_0.png
+65,add,Monoclonius,USNM,False,D:\projects\Diploma\not_prepared_images\gbif_extra\cut\Monoclonius\1316870483_5_bone_0.png
+66,skip,Monoclonius,USNM,False,D:\projects\Diploma\not_prepared_images\gbif_extra\cut\Monoclonius\1316870483_6_bone_0.png
+67,add,Monoclonius,USNM,False,D:\projects\Diploma\not_prepared_images\gbif_extra\cut\Monoclonius\1317006546_0_bone_0.png
+68,add,Monoclonius,USNM,False,D:\projects\Diploma\not_prepared_images\gbif_extra\cut\Monoclonius\1317189026_0_bone_0.png
+69,add,Monoclonius,USNM,False,D:\projects\Diploma\not_prepared_images\gbif_extra\cut\Monoclonius\1317189026_1_bone_0.png
+70,add,Monoclonius,CMN,False,D:\projects\Diploma\not_prepared_images\gbif_extra\cut\Monoclonius\1826476300_0_bone_0.png
+71,add,Monoclonius,CMN,False,D:\projects\Diploma\not_prepared_images\gbif_extra\cut\Monoclonius\1826512297_0_bone_0.png
+72,add,Monoclonius,CMN,False,D:\projects\Diploma\not_prepared_images\gbif_extra\cut\Monoclonius\1826512297_1_bone_0.png
+73,skip,Tyrannosaurus,NHMUK,False,D:\projects\Diploma\not_prepared_images\gbif_extra\cut\Tyrannosaurus\1055725360_1_bone_0.png
+74,add,Tyrannosaurus,NHMUK,False,D:\projects\Diploma\not_prepared_images\gbif_extra\cut\Tyrannosaurus\1055725371_1_bone_0.png
+75,add,Tyrannosaurus,NHMUK,False,D:\projects\Diploma\not_prepared_images\gbif_extra\cut\Tyrannosaurus\1055932028_1_bone_0.png
+76,skip,Tyrannosaurus,NHMUK,True,D:\projects\Diploma\not_prepared_images\gbif_extra\cut\Tyrannosaurus\1057032058_1_bone_0.png
+77,skip,Tyrannosaurus,USNM,True,D:\projects\Diploma\not_prepared_images\gbif_extra\cut\Tyrannosaurus\2284132631_0_bone_0.png
+78,skip,Tyrannosaurus,USNM,True,D:\projects\Diploma\not_prepared_images\gbif_extra\cut\Tyrannosaurus\2284132631_1_bone_0.png
+79,skip,Tyrannosaurus,USNM,True,D:\projects\Diploma\not_prepared_images\gbif_extra\cut\Tyrannosaurus\2284132631_2_bone_0.png
+80,skip,Tyrannosaurus,USNM,True,D:\projects\Diploma\not_prepared_images\gbif_extra\cut\Tyrannosaurus\2284132631_3_bone_0.png
+81,skip,Tyrannosaurus,USNM,True,D:\projects\Diploma\not_prepared_images\gbif_extra\cut\Tyrannosaurus\2284132631_4_bone_0.png
+82,skip,Tyrannosaurus,USNM,True,D:\projects\Diploma\not_prepared_images\gbif_extra\cut\Tyrannosaurus\2284132631_4_bone_1.png
+83,add,Tyrannosaurus,NHMUK,False,D:\projects\Diploma\not_prepared_images\gbif_extra\cut\Tyrannosaurus\3091032302_1_bone_0.png
+84,add,Tyrannosaurus,NHMUK,False,D:\projects\Diploma\not_prepared_images\gbif_extra\cut\Tyrannosaurus\3091032302_2_bone_0.png
+85,add,Tyrannosaurus,NHMUK,False,D:\projects\Diploma\not_prepared_images\gbif_extra\cut\Tyrannosaurus\3091032302_3_bone_0.png
+86,skip,Tyrannosaurus,NHMUK,True,D:\projects\Diploma\not_prepared_images\gbif_extra\cut\Tyrannosaurus\6181754501_0_bone_0.png
+87,skip,Tyrannosaurus,NHMUK,True,D:\projects\Diploma\not_prepared_images\gbif_extra\cut\Tyrannosaurus\6181754501_1_bone_0.png
+88,skip,Tyrannosaurus,NHMUK,True,D:\projects\Diploma\not_prepared_images\gbif_extra\cut\Tyrannosaurus\6181754501_1_bone_1.png
+89,skip,Tyrannosaurus,NHMUK,True,D:\projects\Diploma\not_prepared_images\gbif_extra\cut\Tyrannosaurus\6181754501_2_bone_0.png
+90,skip,Tyrannosaurus,NHMUK,True,D:\projects\Diploma\not_prepared_images\gbif_extra\cut\Tyrannosaurus\6181754501_3_bone_0.png
+91,skip,Tyrannosaurus,NHMUK,True,D:\projects\Diploma\not_prepared_images\gbif_extra\cut\Tyrannosaurus\6181754501_4_bone_0.png
+92,skip,Tyrannosaurus,UCMP,False,D:\projects\Diploma\not_prepared_images\gbif_extra\cut\Tyrannosaurus\786992667_0_bone_0.png
