@@ -75,10 +75,16 @@ out/
 #   clever_split           -> data_preparation/build_clever_split.py
 #   clever_split_*_r512    -> CNN/exp3_gpu_seeds.py
 #   cv5                    -> CNN/exp4_group_cv.py
+#   cv5_v2                 -> CNN/overnight_testing/exp5_group_cv_v2.py
+#   ood                    -> data_preparation/build_ood_set.py
+#   merged_dataset_filtered_clean -> data_preparation/clean_artifacts.py
+/datasets/merged_dataset_filtered_clean/
 /datasets/clever_split/
 /datasets/clever_split_r512/
 /datasets/clever_split_orig_r512/
 /datasets/cv5/
+/datasets/cv5_v2/
+/datasets/ood/
 *.cache
 
 # Ваги проміжних прогонів експериментів (фінальна модель -34 зберігається)
