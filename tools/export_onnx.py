@@ -32,9 +32,9 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "CNN"))
 from gradcam_yolo import YoloGradCAM  # noqa: E402
 
-DEFAULT_WEIGHTS = ROOT / "CNN/results_yolo/yolo_11_selected_9_classes-150-27/weights/best.pt"
+DEFAULT_WEIGHTS = ROOT / "CNN/results_yolo/yolo_11m_v2_10_classes_best-150/weights/best.pt"
 DEFAULT_TARGET = ROOT.parent / "Dino-Predictor/ML"
-DEFAULT_TEST_DIR = ROOT / "datasets/clever_split/test"
+DEFAULT_TEST_DIR = ROOT / "datasets/transfer_learning/transfer_learning_datasets_v2_filtered_by_5/test"
 IMAGE_EXTENSIONS = {".png", ".jpg", ".jpeg", ".webp"}
 PROBABILITIES_OUTPUT = "output0"
 FEATURES_OUTPUT = "features"
@@ -146,7 +146,7 @@ def main():
     parser.add_argument("--target", type=Path, default=DEFAULT_TARGET, help="ML folder of the Dino-Predictor app")
     parser.add_argument("--test-dir", type=Path, default=DEFAULT_TEST_DIR)
     parser.add_argument("--samples", type=int, default=200, help="test images used for verification")
-    parser.add_argument("--imgsz", type=int, default=224)
+    parser.add_argument("--imgsz", type=int, default=None, help="default: imgsz the model was trained with")
     parser.add_argument("--opset", type=int, default=17)
     args = parser.parse_args()
 
@@ -157,6 +157,7 @@ def main():
 
     print(f"--- Exporting {args.weights} ---")
     model = YOLO(str(args.weights))
+    args.imgsz = args.imgsz or int(model.model.args["imgsz"])
     onnx_path = Path(model.export(format="onnx", imgsz=args.imgsz, opset=args.opset, dynamic=False, simplify=True))
     cam_weights = add_cam_output(onnx_path)
 
@@ -183,7 +184,7 @@ def main():
         "model": "model.onnx",
         "sha256": sha256(onnx_path),
         "sourceWeights": args.weights.relative_to(ROOT).as_posix(),
-        "architecture": "YOLO11n-cls",
+        "architecture": Path(model.model.yaml["yaml_file"]).stem,
         "exportedAt": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "ultralytics": ULTRALYTICS_VERSION,
         "opset": args.opset,

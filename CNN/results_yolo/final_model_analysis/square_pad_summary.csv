@@ -1,0 +1,5 @@
+,val,val,test,test,test5,test5,min_loss,min_loss,final_loss,final_loss,mean_abs_dloss,mean_abs_dloss
+,mean,std,mean,std,mean,std,mean,std,mean,std,mean,std
+config,,,,,,,,,,,,
+v2 (centre crop),0.799,0.012,0.808,0.016,0.979,0.012,0.777,0.056,0.901,0.075,0.066,0.014
+v2 padded to square,0.763,0.005,0.761,0.046,0.967,0.008,0.871,0.064,1.013,0.048,0.103,0.029

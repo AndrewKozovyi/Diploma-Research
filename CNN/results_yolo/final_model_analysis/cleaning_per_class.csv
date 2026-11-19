@@ -1,0 +1,11 @@
+,trained on original,trained on cleaned
+Allosaurus,0.806,0.744
+Camarasaurus,0.81,0.571
+Camptosaurus,0.533,0.433
+Deinonychus,0.625,0.667
+Edmontosaurus,0.685,0.648
+Monoclonius,1.0,1.0
+Stegosaurus,0.899,0.879
+Torosaurus,0.881,0.857
+Triceratops,0.873,0.825
+Tyrannosaurus,0.633,0.867

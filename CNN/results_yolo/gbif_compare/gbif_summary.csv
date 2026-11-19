@@ -1,0 +1,7 @@
+,best_val,best_val,best_val_epoch,best_val_epoch,val_last5,val_last5,val_drop,val_drop,val_jumps,val_jumps,min_val_loss,min_val_loss,val_loss_last5,val_loss_last5,val_loss_trend,val_loss_trend,val_loss_jumps,val_loss_jumps,last_train_loss,last_train_loss,val_own,val_own,val_gbif,val_gbif,val_gbif_n,val_gbif_n,test_own,test_own,test_gbif,test_gbif,test_gbif_n,test_gbif_n,common_test,common_test
+,mean,std,mean,std,mean,std,mean,std,mean,std,mean,std,mean,std,mean,std,mean,std,mean,std,mean,std,mean,std,mean,std,mean,std,mean,std,mean,std,mean,std
+config,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"final_config (old v2c, no GBIF)",0.764,0.008,20.667,4.163,0.744,0.013,0.019,0.007,0.024,0.003,0.943,0.064,1.017,0.117,-0.01,0.004,0.086,0.015,0.115,0.005,,,,,,,,,,,,,,
+"adamw (old v2c, no GBIF)",0.787,,9.0,,0.761,,0.027,,0.024,,0.782,,0.874,,0.003,,0.062,,0.304,,,,,,,,,,,,,,,
+adamw v2c (+GBIF),0.749,0.009,19.333,7.506,0.733,0.01,0.016,0.006,0.017,0.003,0.922,0.08,1.208,0.141,0.002,0.008,0.18,0.025,0.205,0.009,0.749,0.009,0.5,0.0,4.0,0.0,0.698,0.01,0.528,0.048,12.0,0.0,0.705,0.022
+adamw v2r (+GBIF),0.798,0.005,25.333,2.082,0.769,0.021,0.029,0.018,0.019,0.005,0.891,0.042,0.962,0.044,-0.002,0.002,0.05,0.011,0.202,0.032,0.798,0.005,0.667,0.115,5.0,0.0,0.758,0.015,0.636,0.182,11.0,0.0,0.705,0.013

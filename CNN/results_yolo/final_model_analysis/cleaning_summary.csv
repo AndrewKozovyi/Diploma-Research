@@ -1,0 +1,5 @@
+,best_epoch,best_epoch,min_val_loss,min_val_loss,final_val_loss,final_val_loss,val_loss_jumps,val_loss_jumps,val_own,val_own,test_own,test_own,common_test_original_images,common_test_original_images,common_test_cleaned_images,common_test_cleaned_images,cam_on_bone,cam_on_bone
+,mean,std,mean,std,mean,std,mean,std,mean,std,mean,std,mean,std,mean,std,mean,std
+config,,,,,,,,,,,,,,,,,,
+trained on original,14.0,7.211,0.777,0.056,0.901,0.075,0.066,0.014,0.799,0.012,0.808,0.016,0.853,0.009,0.798,0.024,0.896,0.007
+trained on cleaned,25.667,2.517,0.943,0.064,0.996,0.087,0.086,0.015,0.764,0.008,0.784,0.039,0.777,0.019,0.801,0.028,0.905,0.013

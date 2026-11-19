@@ -79,6 +79,9 @@ out/
 #   ood                    -> data_preparation/build_ood_set.py
 #   merged_dataset_filtered_clean -> data_preparation/clean_artifacts.py
 /datasets/merged_dataset_filtered_clean/
+#   merged_dataset_filtered_reduced* -> v2 без недіагностичних уламків (final_model_analysis/reduced_dataset_fragments.csv)
+/datasets/merged_dataset_filtered_reduced/
+/datasets/merged_dataset_filtered_reduced_clean/
 /datasets/clever_split/
 /datasets/clever_split_r512/
 /datasets/clever_split_orig_r512/
