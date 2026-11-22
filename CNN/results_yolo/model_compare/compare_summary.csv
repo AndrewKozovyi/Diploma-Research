@@ -1,0 +1,14 @@
+method,group,n_models,val_acc,val_acc_std,test_acc,test_acc_std,test_top3,test_top3_std,test_balanced_acc,test_balanced_acc_std,test_log_loss,test_log_loss_std,common_test_acc,common_test_acc_std
+"YOLO11m, 1 model",YOLO,3,0.7979,0.0037,0.7576,0.0119,0.9044,0.0216,0.7112,0.0195,0.9487,0.0712,0.7051,0.0105
+"YOLO11m, 1 model + TTA",YOLO,3,0.7717,0.0064,0.7622,0.0151,0.9231,0.0151,0.7203,0.022,0.8666,0.0692,0.7094,0.0121
+"YOLO11m, ensemble of 3",YOLO,1,0.7874,,0.7832,,0.9441,,0.742,,0.7676,,0.7308,
+"YOLO11m, ensemble of 3 + TTA",YOLO,1,0.7795,,0.7762,,0.9231,,0.7307,,0.7316,,0.7179,
+"YOLO26m, 1 model",YOLO26,3,0.7848,0.0148,0.7809,0.0087,0.9138,0.0216,0.7333,0.0034,0.897,0.0282,0.7009,0.006
+"YOLO26m, ensemble of 3",YOLO26,1,0.811,,0.7972,,0.9371,,0.7461,,0.7582,,0.7051,
+"DINOv2 ViT-S, frozen + linear",DINOv2,1,0.6614,,0.6503,,0.9021,,0.6222,,1.078,,0.5897,
+"DINOv2 ViT-B, frozen + linear",DINOv2,1,0.7008,,0.7343,,0.9021,,0.6866,,0.8707,,0.7051,
+"DINOv2 ViT-B, fine-tuned, 1 model",DINOv2,3,0.7979,0.0074,0.8065,0.0257,0.9277,0.0066,0.7669,0.0359,0.7393,0.0181,0.7521,0.0472
+"DINOv2 ViT-B, fine-tuned, 1 model + TTA",DINOv2,3,0.7979,0.0037,0.8112,0.0347,0.9277,0.0087,0.7702,0.0453,0.7322,0.0171,0.7521,0.0527
+"DINOv2 ViT-B, fine-tuned, ensemble of 3",DINOv2,1,0.811,,0.8182,,0.9301,,0.7744,,0.709,,0.7564,
+"DINOv2 ViT-B, fine-tuned, ensemble of 3 + TTA",DINOv2,1,0.8268,,0.8182,,0.9371,,0.7718,,0.7062,,0.7436,
+YOLO ensemble + DINOv2 ensemble,YOLO + DINOv2,1,0.8189,,0.7902,,0.9371,,0.7441,,0.6337,,0.7179,

@@ -1,0 +1,26 @@
+{
+  "weights": "CNN\\results_yolo\\yolo_11m_v2_10_classes_best-150\\weights\\best.pt",
+  "target_tpr_on_id_val": 0.95,
+  "thresholds": {
+    "MSP": {
+      "TPR95": 0.44707560539245605,
+      "Youden": 0.9815263152122498
+    },
+    "MaxLogit": {
+      "TPR95": 1.7167651653289795,
+      "Youden": 8.478458404541016
+    },
+    "Energy": {
+      "TPR95": 2.558574914932251,
+      "Youden": 8.478679656982422
+    },
+    "kNN": {
+      "TPR95": -0.44571179151535034,
+      "Youden": -0.22713327407836914
+    },
+    "Mahalanobis": {
+      "TPR95": -808.8125880599191,
+      "Youden": -361.5446958488449
+    }
+  }
+}

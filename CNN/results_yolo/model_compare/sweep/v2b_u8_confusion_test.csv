@@ -1,0 +1,11 @@
+,Allosaurus,Camarasaurus,Camptosaurus,Deinonychus,Edmontosaurus,Monoclonius,Stegosaurus,Torosaurus,Triceratops,Tyrannosaurus
+Allosaurus,11,0,0,1,0,0,1,0,0,1
+Camarasaurus,0,6,0,0,0,1,0,0,0,0
+Camptosaurus,0,0,8,0,0,2,2,0,0,0
+Deinonychus,0,0,0,6,1,1,0,0,0,1
+Edmontosaurus,0,0,0,0,10,1,0,0,4,1
+Monoclonius,0,0,0,0,0,20,0,0,0,0
+Stegosaurus,0,0,0,0,0,0,22,0,0,0
+Torosaurus,0,0,0,0,0,0,0,14,0,0
+Triceratops,1,0,0,0,0,0,1,1,16,0
+Tyrannosaurus,0,0,0,0,1,0,1,0,0,8
